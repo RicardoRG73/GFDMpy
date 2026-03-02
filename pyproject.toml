@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gfdmpy"
+version = "0.1.0"
+authors = [
+  { name = "Ricardo RG", email = "[EMAIL_ADDRESS]" },
+]
+description = "Generalized Finite Difference Method (GFDM) for 2D interface problems."
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Mathematics",
+]
+dependencies = [
+    "numpy>=1.20",
+    "scipy>=1.7",
+    "matplotlib>=3.4",
+    "calfem-python",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/ricardorg73/GFDMpy"
+"Bug Tracker" = "https://github.com/ricardorg73/GFDMpy/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
