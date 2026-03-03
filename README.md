@@ -195,7 +195,8 @@ This project is led by researchers dedicated to advancing meshless computational
 - **Dr. Francisco Domínguez-Mota**: Contributor and scientific advisor.
 - **Dr. Carlos Chávez-Negrete**: Contributor and scientific advisor.
 - **Dr. Gerardo Tinoco-Guerrero**: Contributor and scientific advisor.
-- **Gerardo Tinoco-Ruiz**: Contributor and scientific advisor.
+- **Dr. José Alberto Guzmán-Torres**: Contributor and scientific advisor.
+- **Dr. Gerardo Tinoco-Ruiz**: Contributor and scientific advisor.
 
 ---
 
