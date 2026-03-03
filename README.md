@@ -129,27 +129,27 @@ GFDMpy/
 ├── examples/
 │   ├── basic_example.py
 │   └── legacy/
-│       ├── Meshes/          # JSON geometry files
-│       ├── figures/         # Generated results
-│       ├── ex0.py           # Legacy examples...
+│       ├── Meshes/           # JSON geometry files
+│       ├── figures/          # Generated results
+│       ├── ex0.py            # Legacy examples...
 │       └── ex8.py
 ├── src/
-│   └── gfdm_interfaces/     # Core package
-│       ├── GFDMI.py         # Main class implementation
-│       ├── utils.py         # Utility functions
+│   └── gfdmpy/               # Core package
+│       ├── GFDM.py           # Main class implementation
+│       ├── utils.py          # Utility functions
 │       └── __init__.py
 ├── tests/
-│   └── test_gfdmi.py        # Unit tests
-├── pyproject.toml           # Build system configuration
-├── README.md                # This file
-├── requirements.txt         # Dependencies
-└── verify_refactor.py       # Verification script
+│   └── test_gfdmi.py         # Unit tests
+├── pyproject.toml            # Build system configuration
+├── README.md                 # This file
+├── requirements.txt          # Dependencies
+└── verify_refactor.py        # Verification script
 ```
 
 ### Detailed Breakdown
 
-- **`src/gfdm_interfaces/`**: The core package containing the library logic.
-  - `GFDMI.py`: Main implementation of the `GFDMI_2D_problem` class.
+- **`src/gfdmpy/`**: The core package containing the library logic.
+  - `GFDM.py`: Main implementation of the `GFDMI_2D_problem` class.
   - `utils.py`: Utility functions for support node selection and normal vector calculations.
   - `__init__.py`: Package initialization.
 
@@ -191,14 +191,20 @@ We welcome contributions from the scientific and developer community. If you fin
 
 This project is led by researchers dedicated to advancing meshless computational methods at **Universidad Michoacana de San Nicolás de Hidalgo (UMSNH)**.
 
-- **Dr. Gerardo Tinoco-Guerrero**: Principal Researcher and Lead Developer.
+- **Dr. Ricardo Román-Gutiérrez**: Principal Researcher and Lead Developer.
+- **Dr. Francisco Domínguez-Mota**: Contributor and scientific advisor.
+- **Dr. Carlos Chávez-Negrete**: Contributor and scientific advisor.
+- **Dr. Gerardo Tinoco-Guerrero**: Contributor and scientific advisor.
 - **Gerardo Tinoco-Ruiz**: Contributor and scientific advisor.
 
 ---
 
 ## Acknowledgments
-
-We express our gratitude to **UMSNH** and the scientific community for supporting research in applied numerical methods.
+We express our sincere gratitude to:
+- **AULA CIMNE-Morelia**, for their generous hospitality in providing a collaborative working environment, and for their steadfast commitment to fostering cutting-edge research.
+- **FIC-UMSNH** (Faculty of Civil Engineering, Universidad Michoacana de San Nicolás de Hidalgo), for kindly offering their facilities and for their enduring dedication to the promotion of scientific and academic development.
+- **FCFM-UMSNH** (Faculty of Physical Mathematical Sciences, Universidad Michoacana de San Nicolás de Hidalgo), for graciously granting access to their computational infrastructure, which was instrumental in carrying out this work.
+- **SECIHITI** (Secretaría de Ciencia, Humanidades, Tecnología e Innovación), for their valuable financial support, without which the successful completion of this research would not have been possible.
 
 ---
 
