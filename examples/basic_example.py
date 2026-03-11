@@ -1,11 +1,11 @@
-# import os
-# import sys
-# sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'src')))
+import os
+import sys
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'src')))
 
 import numpy as np
 import matplotlib.pyplot as plt
 import scipy.sparse as sp
-from gfdm_interfaces.GFDMI import GFDMI_2D_problem
+from GFDFlow.GFDM import GFDMI_2D_problem
 
 def run_example():
     # 1. Create a simple mesh

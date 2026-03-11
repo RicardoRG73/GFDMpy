@@ -3,10 +3,10 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "gfdmpy"
+name = "GFDFlow"
 version = "0.1.0"
 authors = [
-  { name = "Ricardo RG", email = "[EMAIL_ADDRESS]" },
+  { name = "Ricardo RG"},
 ]
 description = "Generalized Finite Difference Method (GFDM) for 2D interface problems."
 readme = "README.md"
@@ -25,8 +25,8 @@ dependencies = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/ricardorg73/GFDMpy"
-"Bug Tracker" = "https://github.com/ricardorg73/GFDMpy/issues"
+"Homepage" = "https://github.com/ricardorg73/GFDFlow"
+"Bug Tracker" = "https://github.com/ricardorg73/GFDFlow/issues"
 
 [tool.setuptools.packages.find]
 where = ["src"]

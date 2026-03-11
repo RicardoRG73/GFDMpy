@@ -139,7 +139,7 @@ plt.legend()
 
 # -- discretization --
 # Psi discretization
-from gfdmpy.GFDM import GFDMI_2D_problem as gfdm
+from GFDFlow.GFDM import GFDMI_2D_problem as gfdm
 
 L = np.array([0,0,0,1,0,1])
 source = lambda p: 0
@@ -317,4 +317,4 @@ ani = FuncAnimation(fig, update, frames=U.shape[1], blit=False, interval=10)
 #ani.save("figures/ex7Elder.gif", writer='imagemagick', fps=5)
 
 plt.savefig("figures/ex7Elder.png", dpi=300, bbox_inches="tight")
-# plt.show()
+plt.show()

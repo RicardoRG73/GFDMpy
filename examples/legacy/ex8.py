@@ -130,7 +130,7 @@ source = lambda p: 0
 k = lambda p: 0.5
 neumann_condition = lambda p: 0
 
-from gfdmpy.GFDM import GFDMI_2D_problem as gfdmi
+from GFDFlow.GFDM import GFDMI_2D_problem as gfdmi
 
 problem = gfdmi(coords, faces, L, source)
 

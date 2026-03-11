@@ -13,7 +13,7 @@ plt.style.use("seaborn-v0_8")
 
 from scipy.integrate import solve_ivp
 
-from gfdmpy.GFDM import GFDMI_2D_problem as gfdmi
+from GFDFlow.GFDM import GFDMI_2D_problem as gfdmi
 
 
 # loading mesh data

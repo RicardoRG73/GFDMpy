@@ -10,7 +10,7 @@ plt.rcParams["legend.shadow"] = True
 plt.rcParams["figure.autolayout"] = True
 import scipy.sparse as sp
 
-from gfdmpy.GFDM import GFDMI_2D_problem as gfdmi
+from GFDFlow.GFDM import GFDMI_2D_problem as gfdmi
 
 #%% Loading mesh from file
 import json

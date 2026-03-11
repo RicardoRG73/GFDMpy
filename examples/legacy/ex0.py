@@ -11,7 +11,7 @@ plt.rcParams["legend.frameon"] = True
 plt.rcParams["legend.shadow"] = True
 plt.rcParams["figure.autolayout"] = True
 
-from gfdmpy.GFDM import GFDMI_2D_problem as gfdmi
+from GFDFlow.GFDM import GFDMI_2D_problem as gfdmi
 
 with open('Meshes/mesh0.json', 'r') as file:
     loaded_data = json.load(file)
@@ -90,4 +90,5 @@ ax.set_ylabel("y")
 ax.set_zlabel("U")
 
 plt.savefig("figures/ex0.png", dpi=300, bbox_inches="tight")
+
 # plt.show()

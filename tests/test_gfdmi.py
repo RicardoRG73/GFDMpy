@@ -1,6 +1,6 @@
 import numpy as np
 import pytest
-from gfdmpy.GFDM import GFDMI_2D_problem
+from GFDFlow.GFDM import GFDMI_2D_problem
 
 def test_gfdmi_initialization():
     coords = np.array([[0, 0], [1, 0], [0, 1], [1, 1], [0.5, 0.5]])

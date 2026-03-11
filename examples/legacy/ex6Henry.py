@@ -17,7 +17,7 @@ import calfem.geometry as cfg
 import calfem.mesh as cfm
 import calfem.vis_mpl as cfv
 
-from gfdmpy.GFDM import GFDMI_2D_problem as gfdmi
+from GFDFlow.GFDM import GFDMI_2D_problem as gfdmi
 
 #%%
 # -- geometry --

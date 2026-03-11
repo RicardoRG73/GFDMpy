@@ -1,4 +1,4 @@
-# GFDMpy: Generalized Finite Difference Method library for transport phenomena problems in multilayer materials
+# GFDFlow: Generalized Finite Difference Method library for transport phenomena problems in multilayer materials
 
 <div align="center">
 
@@ -95,7 +95,7 @@ pip install -e .
 Use the `GFDMI_2D_problem` class to define your domain and physics.
 
 ```python
-from gfdm_interfaces.GFDMI import GFDMI_2D_problem as gfdmi
+from GFDFlow.GFDM import GFDMI_2D_problem as gfdmi
 import numpy as np
 
 # Operator for Poisson equation: Laplacian (D=1, F=1)
@@ -125,7 +125,7 @@ For a complete working example, see `examples/basic_example.py`.
 ## Project Structure
 
 ```text
-GFDMpy/
+GFDFlow/
 ├── examples/
 │   ├── basic_example.py
 │   └── legacy/
@@ -134,7 +134,7 @@ GFDMpy/
 │       ├── ex0.py            # Legacy examples...
 │       └── ex8.py
 ├── src/
-│   └── gfdmpy/               # Core package
+│   └── GFDFlow/               # Core package
 │       ├── GFDM.py           # Main class implementation
 │       ├── utils.py          # Utility functions
 │       └── __init__.py
@@ -148,7 +148,7 @@ GFDMpy/
 
 ### Detailed Breakdown
 
-- **`src/gfdmpy/`**: The core package containing the library logic.
+- **`src/GFDFlow/`**: The core package containing the library logic.
   - `GFDM.py`: Main implementation of the `GFDMI_2D_problem` class.
   - `utils.py`: Utility functions for support node selection and normal vector calculations.
   - `__init__.py`: Package initialization.
