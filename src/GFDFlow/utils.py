@@ -47,7 +47,7 @@ def get_support_nodes(
 def compute_normal_vectors(
     boundary_nodes: npt.NDArray[np.int_],
     coords: npt.NDArray[np.float64],
-    line_tolerance: float = 0.99
+    line_tolerance: float = 0.999
 ) -> npt.NDArray[np.float64]:
     """
     Computes outward normal vectors at boundary nodes.
@@ -91,7 +91,7 @@ def compute_normal_vectors(
     if norm_1 > 0:
         line_1 = line_1 / norm_1
 
-    line_2 = coords[boundary_nodes[N // 2]] - coords[boundary_nodes[0]]
+    line_2 = coords[boundary_nodes[N-1]] - coords[boundary_nodes[0]]
     norm_2 = np.linalg.norm(line_2)
     if norm_2 > 0:
         line_2 = line_2 / norm_2

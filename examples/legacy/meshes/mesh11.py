@@ -24,7 +24,7 @@ import calfem.vis_mpl as cfv
 g = cfg.Geometry()
 
 # points
-g.point([-400,355], el_size=0.5)     # 0
+g.point([-400,355])     # 0
 g.point([-400,-100])    # 1
 g.point([1365,-100])    # 2
 g.point([1365,110])     # 3
@@ -36,7 +36,7 @@ g.point([1070,152])     # 8
 g.point([1050,152])     # 9
 g.point([280,360])      # 10
 
-g.point([40,280], el_size=0.5)       # 11
+g.point([40,280])       # 11
 g.point([120,250])      # 12
 g.point([300,250])      # 13
 g.point([340,230])      # 14
